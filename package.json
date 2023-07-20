@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-ecommerce-api-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.4.0",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  }
+}
